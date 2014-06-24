@@ -19,4 +19,13 @@ $(function() {
 		$('.box-editable').toggle();
 	});
 
+	$('.box-editable textarea').keyup(function(e) {
+		if(e.keyCode === 13) {
+			var currentText = $('.box-editable textarea').val();
+			$('.box-static').text(currentText);
+			$('.box-static').toggle();
+			$('.box-editable').toggle();
+		}
+	});
+
 });
