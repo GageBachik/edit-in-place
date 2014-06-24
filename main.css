@@ -1,0 +1,67 @@
+/*Base*/
+
+body {
+	background-color: #f4f4f1;
+}
+
+.center-container{
+	margin: 50px auto;
+	max-width: 780px;
+}
+
+.center-container h1{
+	text-align: left;
+}
+
+/*Base*/
+
+/*Static Box*/
+
+.box{
+	background-color: white;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px 3px #888888;
+
+}
+
+.box h2{
+	border-bottom: 1px solid #CCC;
+}
+
+.box-static{
+	width: 500px;
+	height: 100px;
+}
+
+.box-static:hover{
+	color: #CCC;
+	background-color: #FFC;
+}
+
+/*Static Box*/
+
+/*Editbale Box*/
+
+.box-editable{
+	display: none;
+}
+
+.box-editable textarea{
+	width: 500px;
+	height: 100px;
+}
+
+.button-box{
+	display: inline-block;
+	position: relative;
+	top: -9px;
+	right: 156px;
+	z-index: 999;
+}
+
+/*Editbale Box*/
+
+/*Button Box*/
+
+/*Button Box*/

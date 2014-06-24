@@ -2,11 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Untitled</title>
+  <title>Edit In Place</title>
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
+	
+	<div class="center-container">
+		<h1>Live Demo</h1>
+
+		<div class="box">
+			<h2>Edit in place with jQuery and CSS</h2>
+			<p class="box-static"> Hover over this text to enable edit in place demo. Click to edit.</p>
+
+			<div class="box-editable">
+				<textarea></textarea>
+				<div class="button-box">
+					<button class="save">✔Save</button>
+					<button class="cancel">✖Cancel</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
 	
   <script src="main.js"></script>
 
